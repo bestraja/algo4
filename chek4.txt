@@ -1,0 +1,15 @@
+procédure Insertion sort (tableau T)
+   var x,i,j:integer;
+       for i de 1 à taille(T) - 1
+
+            
+            x := T[i] ;                         
+
+    
+            j ← i                               
+            tant que j > 0 et T[j - 1] > x
+                     T[j] ← T[j - 1]
+                     j ← j - 1
+
+    
+            T[j] ← x                            
